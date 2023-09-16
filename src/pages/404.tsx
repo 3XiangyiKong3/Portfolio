@@ -24,6 +24,9 @@ export default function Error(): JSX.Element {
 							<br />
 							The page you&apos;re looking for couldn&apos;t be found.
 						</p>
+						<p className="mt-8 text-sm font-medium text-gray-300 dark:text-gray-400">
+							I am still working on this page, please check back later.
+						</p>
 						<div className="mt-6 flex justify-center items-center space-x-4">
 							<Button.Standard
 								type={NavigationItemType.ACTION}

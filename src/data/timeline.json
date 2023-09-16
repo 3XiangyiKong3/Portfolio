@@ -1,76 +1,58 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
+		"date": "04-01-2023",
+		"title": "Started @ A3i",
+		"description": "Founded A3i with Nathan Shaver",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
+			"text": "Visit A3i",
+			"url": "https://a3iautoai.com/"
 		}
 	},
 	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
-		"icon": "feather:award"
-	},
-	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
-		"icon": "feather:briefcase",
+		"date": "06-25-2023",
+		"title": "Graduated from UCSD! Go Triton!",
+		"description": "Bachelor's Degree in Data Science and Cognitive Science",
+		"icon": "feather:book",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit UCSD",
+			"url": "https://ucsd.edu/"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
+		"date": "11-15-2021",
+		"title": "Started @ Knowsmoke",
+		"description": "Joined the Knowsmoke team",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
+			"text": "Visit Knowsmoke",
+			"url": "https://knowsmoke.com/"
 		}
 	},
 	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
-	},
-	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
-		"icon": "feather:briefcase",
+		"date": "06-15-2019",
+		"title": "Graduated from Riverstone!",
+		"description": "International Baccelreate Diploma",
+		"icon": "feather:book",
 		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
+			"text": "Visit Riverstone",
+			"url": "https://www.riverstoneschool.org/"
 		}
 	},
 	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
-		"icon": "feather:briefcase",
+		"date": "08-20-2018",
+		"title": "Harvard!",
+		"description": "Completed Harvard Summer Program",
+		"icon": "feather:book",
 		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
+			"text": "Visit Harvard Summer Program",
+			"url": "https://summer.harvard.edu/high-school-programs/"
 		}
 	},
 	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
-		"icon": "feather:book"
-	},
-	{
-		"date": "08-09-1997",
+		"date": "10-10-2001",
 		"title": "Birthday!",
-		"description": "I was born the 9th of August 1997",
+		"description": "I was born the 10th of October 2001",
 		"icon": "feather:gift"
 	}
 ]

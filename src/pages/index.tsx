@@ -16,22 +16,40 @@ const Event = dynamic<EventProps>(
 );
 
 const ACTIONS: Array<NavigationItem> = [
+	// {
+	// 	type: NavigationItemType.LINK,
+	// 	href: '/blog',
+	// 	icon: <Icon className="mr-3" icon="feather:edit-3" />,
+	// 	text: 'Blog',
+	// },
+	// {
+	// 	type: NavigationItemType.LINK,
+	// 	href: '/projects',
+	// 	icon: <Icon className="mr-3" icon="feather:copy" />,
+	// 	text: 'Projects',
+	// },
 	{
 		type: NavigationItemType.LINK,
-		href: '/blog',
+		href: '/about',
 		icon: <Icon className="mr-3" icon="feather:edit-3" />,
-		text: 'Blog',
+		text: 'About',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
+		href: '/resume',
 		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: 'Projects',
+		text: 'Resume',
+	},
+	{
+		type: NavigationItemType.LINK,
+		href: 'https://www.linkedin.com/in/xiangyi-kong',
+		icon: <Icon className="mr-3" icon="feather:linkedin" />,
+		text: 'Linkedin',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
+		href: 'https://github.com/3XiangyiKong3',
 		icon: <Icon className="mr-3" icon="feather:github" />,
 		text: 'GitHub',
 	},
@@ -39,11 +57,12 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	const birthday = new Date('1997-08-09');
+	const birthday = new Date('2001-10-10');
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a software engineer & games developer`;
+	const description = `I am a founder & data scientist & software engineer`;
+	// const sidenotes = 'You can also call me Tony';
 
 	return (
 		<Layout.Default>
@@ -56,9 +75,9 @@ export default function HomePage(): JSX.Element {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						I&apos;m Ben, <br className="hidden sm:block" />a{' '}
+						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-7xl tracking-tight font-extrabold">
+						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '} 
+						I&apos;m Xiangyi, <br className="hidden sm:block" />a{' '}
 						<Pill.Standard className="mt-4">developer</Pill.Standard>
 					</Animate>
 
