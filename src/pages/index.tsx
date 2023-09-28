@@ -34,12 +34,12 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <Icon className="mr-3" icon="feather:edit-3" />,
 		text: 'About',
 	},
-	{
-		type: NavigationItemType.LINK,
-		href: '/resume',
-		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: 'Resume',
-	},
+	// {
+	// 	type: NavigationItemType.LINK,
+	// 	href: '/blog',
+	// 	icon: <Icon className="mr-3" icon="feather:copy" />,
+	// 	text: 'Resume',
+	// },
 	{
 		type: NavigationItemType.LINK,
 		href: 'https://www.linkedin.com/in/xiangyi-kong',
