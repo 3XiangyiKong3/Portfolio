@@ -1,9 +1,9 @@
 {
 	"private": true,
-	"name": "nuro.dev",
+	"name": "xiangyi.dev",
 	"version": "2.1.1",
-	"description": "Personal Website for nuro.dev",
-	"repository": "https://github.com/nurodev/nuro.dev.git",
+	"description": "Personal Website for xiangyi.dev",
+	"repository": "https://github.com/3XiangyiKong3/Portfolio.git",
 	"author": "nurodev <me@nuro.dev>",
 	"license": "MIT",
 	"prettier": {
