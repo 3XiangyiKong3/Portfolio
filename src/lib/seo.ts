@@ -14,27 +14,27 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://nuro.dev/${router.asPath}`,
+		canonical: `https://xiangyikong.com/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			site_name: 'Xiangyi Kong',
+			url: `https://xiangyikong.com/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
-					url: 'https://nuro.dev/banner.png',
+					url: 'https://xiangyikong.com/banner.png',
 					alt: description,
 					width: 1280,
 					height: 720,
 				},
 			],
 		},
-		twitter: {
-			cardType: 'summary_large_image',
-			handle: '@nurodev',
-			site: '@nurodev',
-		},
+		// twitter: {
+		// 	cardType: 'summary_large_image',
+		// 	handle: '@nurodev',
+		// 	site: '@nurodev',
+		// },
 		...props,
 	};
 }
