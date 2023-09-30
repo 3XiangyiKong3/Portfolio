@@ -33,6 +33,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'About',
 			href: '/about',
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:copy',
+			text: 'Projects',
+			href: '/projects',
+		},
 		// {
 		// 	type: NavigationItemType.LINK,
 		// 	icon: 'feather:copy',

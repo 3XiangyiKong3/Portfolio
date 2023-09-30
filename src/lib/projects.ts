@@ -13,7 +13,7 @@ import type { GitHubRepos, Project, ProjectPost } from '~/types';
  * @TODO Switch to v3 API using GraphQL to save over-fetching
  */
 export async function fetchProjects(): Promise<Array<Project> | null> {
-	const response = await fetch('https://api.github.com/users/nurodev/repos', {
+	const response = await fetch('https://api.github.com/users/3XiangyiKong3/repos', {
 		headers: {
 			...(process.env.GITHUB_PAT && {
 				authorization: `token ${process.env.GITHUB_PAT}`,
@@ -35,7 +35,6 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 	}
 
 	const json = (await response.json()) as GitHubRepos;
-
 	const { default: rawProjectPosts } = await import('~/data/projects.json');
 	const projectPosts = rawProjectPosts as Array<ProjectPost>;
 
@@ -46,9 +45,10 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 			if (repo.archived) return null;
 
 			// Strip the emoji suffix from the repo description
-			const trimmedDescription = repo.description.split(' ');
-			trimmedDescription.shift();
-			const description = trimmedDescription.join(' ');
+			// const trimmedDescription = repo.description.split(' ');
+			// trimmedDescription.shift();
+			// const description = trimmedDescription.join(' ');
+			const description = repo.description;
 
 			// Check if there is a matching blog post to attach
 			const repoPost =

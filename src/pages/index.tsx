@@ -36,10 +36,16 @@ const ACTIONS: Array<NavigationItem> = [
 	},
 	// {
 	// 	type: NavigationItemType.LINK,
-	// 	href: '/blog',
+	// 	href: '/portfolio',
 	// 	icon: <Icon className="mr-3" icon="feather:copy" />,
-	// 	text: 'Resume',
+	// 	text: 'Portfolio',
 	// },
+	{
+		type: NavigationItemType.LINK,
+		href: '/projects',
+		icon: <Icon className="mr-3" icon="feather:copy" />,
+		text: 'Projects',
+	},
 	{
 		type: NavigationItemType.LINK,
 		href: 'https://www.linkedin.com/in/xiangyi-kong',
